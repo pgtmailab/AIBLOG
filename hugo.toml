@@ -1,0 +1,30 @@
+baseURL = "https://aithinktank.netlify.app/"
+locale = "en-us"
+title = "AI Think Tank"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = "production"
+  description = "Daily articles, published automatically."
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "AI Think Tank"
+  Content = "Daily articles, published automatically."
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Articles"
+  url = "/posts/"
+  weight = 10
